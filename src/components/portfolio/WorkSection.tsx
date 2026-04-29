@@ -39,7 +39,7 @@ const projects: Project[] = [
 
 function WorkSection() {
   return (
-    <section className="py-32 bg-surface-container-lowest" id="work">
+    <section className="py-32 bg-[#0b0e14] border-y border-white/5" id="work">
       <div className="max-w-[1440px] mx-auto px-8">
         <div className="flex items-end justify-between mb-20">
           <div>

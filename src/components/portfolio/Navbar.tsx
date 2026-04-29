@@ -17,27 +17,30 @@ function Navbar() {
       .map((link) => document.querySelector(link.href) as HTMLElement | null)
       .filter((section): section is HTMLElement => section !== null)
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visibleSections = entries
-          .filter((entry) => entry.isIntersecting)
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)
+    const updateActiveSection = () => {
+      const viewportAnchor = window.scrollY + window.innerHeight * 0.45
+      let closestHref = '#hero'
+      let smallestDistance = Number.POSITIVE_INFINITY
 
-        if (visibleSections.length > 0) {
-          setActiveHref(`#${visibleSections[0].target.id}`)
+      sections.forEach((section) => {
+        const distance = Math.abs(section.offsetTop - viewportAnchor)
+        if (distance < smallestDistance) {
+          smallestDistance = distance
+          closestHref = `#${section.id}`
         }
-      },
-      {
-        root: null,
-        // keep center viewport as active zone to avoid "one click behind" behavior
-        rootMargin: '-35% 0px -45% 0px',
-        threshold: [0.15, 0.35, 0.55, 0.75],
-      },
-    )
+      })
 
-    sections.forEach((section) => observer.observe(section))
+      setActiveHref(closestHref)
+    }
 
-    return () => observer.disconnect()
+    updateActiveSection()
+    window.addEventListener('scroll', updateActiveSection, { passive: true })
+    window.addEventListener('resize', updateActiveSection)
+
+    return () => {
+      window.removeEventListener('scroll', updateActiveSection)
+      window.removeEventListener('resize', updateActiveSection)
+    }
   }, [])
 
   return (
