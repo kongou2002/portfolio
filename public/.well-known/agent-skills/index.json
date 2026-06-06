@@ -1,0 +1,39 @@
+{
+  "skills": [
+    {
+      "id": "frontend-react-nextjs",
+      "name": "React & Next.js Development",
+      "description": "Build high-performance, SEO-optimized web applications with React 19, Next.js 15, TypeScript, and Tailwind CSS. Expert in SSR, SSG, and app router patterns.",
+      "url": "https://channguyen.io.vn/#tech",
+      "tags": ["react", "nextjs", "typescript", "tailwind", "frontend", "ssr"]
+    },
+    {
+      "id": "mobile-react-native",
+      "name": "React Native & Expo Mobile Development",
+      "description": "Cross-platform mobile applications for iOS and Android using React Native and Expo. Social login, real-time data, push notifications.",
+      "url": "https://channguyen.io.vn/#tech",
+      "tags": ["react-native", "expo", "mobile", "ios", "android"]
+    },
+    {
+      "id": "web3-solana",
+      "name": "Solana & Web3 Development",
+      "description": "Build decentralized applications on Solana with Web3.js, WalletConnect, NFT minting (ERC721/1155), DeFi protocols, and on/off-ramp integrations.",
+      "url": "https://channguyen.io.vn/#work",
+      "tags": ["solana", "web3", "blockchain", "defi", "nft", "walletconnect"]
+    },
+    {
+      "id": "fintech-payments",
+      "name": "Fintech & Payment Systems",
+      "description": "Secure payment applications with fiat/crypto transfers, Apple Pay, QR codes, and real-time transaction flows.",
+      "url": "https://channguyen.io.vn/#work",
+      "tags": ["fintech", "payments", "crypto", "apple-pay", "qr"]
+    },
+    {
+      "id": "backend-graphql-api",
+      "name": "Backend & GraphQL API Development",
+      "description": "RESTful and GraphQL APIs with NestJS, Express, Apollo Server. Database design with PostgreSQL and MongoDB.",
+      "url": "https://channguyen.io.vn/#tech",
+      "tags": ["nestjs", "express", "graphql", "postgresql", "mongodb", "api"]
+    }
+  ]
+}

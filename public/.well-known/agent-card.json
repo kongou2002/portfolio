@@ -1,0 +1,51 @@
+{
+  "name": "Kongou Dev — Chấn Nguyễn",
+  "description": "Frontend & Mobile Engineer portfolio. Specializing in React, React Native, Next.js, Solana, Web3, and Fintech products. Available for freelance and full-time engagements.",
+  "version": "1.0.0",
+  "url": "https://channguyen.io.vn/",
+  "documentationUrl": "https://channguyen.io.vn/",
+  "provider": {
+    "organization": "Kongou Dev",
+    "url": "https://channguyen.io.vn/"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "skills": [
+    {
+      "id": "frontend-development",
+      "name": "Frontend Development",
+      "description": "Build high-performance web applications with React, Next.js, TypeScript, and Tailwind CSS",
+      "tags": ["react", "nextjs", "typescript", "tailwind", "frontend"]
+    },
+    {
+      "id": "mobile-development",
+      "name": "Mobile Development",
+      "description": "Cross-platform mobile apps with React Native and Expo for iOS and Android",
+      "tags": ["react-native", "expo", "mobile", "ios", "android"]
+    },
+    {
+      "id": "web3-blockchain",
+      "name": "Web3 & Blockchain",
+      "description": "Solana dApps, DeFi protocols, NFT platforms, WalletConnect integration",
+      "tags": ["solana", "web3", "blockchain", "defi", "nft", "ethers"]
+    },
+    {
+      "id": "fintech-payments",
+      "name": "Fintech & Payments",
+      "description": "Payment systems, crypto/fiat transfers, Apple Pay integration, QR payments",
+      "tags": ["fintech", "payments", "solana", "crypto"]
+    },
+    {
+      "id": "backend-graphql",
+      "name": "Backend & GraphQL",
+      "description": "API development with NestJS, Express, GraphQL, Apollo Server, PostgreSQL, MongoDB",
+      "tags": ["nestjs", "express", "graphql", "postgresql", "mongodb", "backend"]
+    }
+  ],
+  "defaultInputModes": ["text"],
+  "defaultOutputModes": ["text"],
+  "supportsAuthenticatedExtendedCard": false
+}

@@ -1,0 +1,43 @@
+# Chấn Nguyễn — Kongou Dev
+
+Frontend & Mobile Engineer based in Ho Chi Minh City, Vietnam. 3+ years of experience building fintech, Web3, and Solana-powered products. TOKEN 2049 Hackathon 1st Place winner (Polkadot Track, Singapore).
+
+## Expertise
+
+- **Frontend**: React, Next.js, TypeScript, Tailwind CSS, Shadcn
+- **Mobile**: React Native, Expo, iOS/Android
+- **Backend**: NestJS, Express.js, GraphQL, Apollo Server
+- **Blockchain**: Solana Web3.js, Ethers.js, WalletConnect, DeFi, NFT
+- **Database**: PostgreSQL, MongoDB
+
+## Selected Projects
+
+- [Whampays](https://channguyen.io.vn/#work) — Solana payment app with fiat/crypto transfers, Apple Pay, QR. Built with React Native.
+- [Moonrush](https://channguyen.io.vn/#work) — Solana decentralized trading with on/off-ramp and real-time market data.
+- [Llamaoism](https://channguyen.io.vn/#work) — NFT minting on Monad Testnet with WalletConnect integration.
+- [EncryptSim](https://channguyen.io.vn/#work) — Secure eSIM app with wallet authentication and VPN.
+
+## Work Experience
+
+- **Whammy Tech** (Mar 2025 – Present) — Frontend Developer
+- **Llamao** (Mar 2025 – Sep 2025) — Frontend Developer (Part-time)
+- **Orochi Network** (Feb 2024 – Jan 2025) — Frontend Developer
+- **HD Websoft** (Nov 2023 – Apr 2024) — Software Developer
+
+## Contact
+
+- Email: giachan9@gmail.com
+- Phone: +84 933 857 813
+- GitHub: https://github.com/kongou2002
+- LinkedIn: https://www.linkedin.com/in/nguyen-bui-gia-chan-432a701a0/
+- Portfolio: https://channguyen.io.vn/
+
+## Availability
+
+Open for freelance and full-time engagements in Web3, Fintech, and high-performance mobile ecosystems.
+
+## Agent Resources
+
+- [Agent Profile (JSON-LD)](https://channguyen.io.vn/.well-known/agent.json)
+- [API Catalog](https://channguyen.io.vn/.well-known/api-catalog)
+- [Sitemap](https://channguyen.io.vn/sitemap.xml)

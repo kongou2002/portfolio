@@ -1,0 +1,63 @@
+{
+  "serverInfo": {
+    "name": "kongou-dev-portfolio",
+    "version": "1.0.0",
+    "description": "Portfolio and professional profile of Chấn Nguyễn (Kongou Dev), Frontend & Mobile Engineer specializing in Web3, Fintech, and Solana."
+  },
+  "capabilities": {
+    "tools": {},
+    "resources": {
+      "listChanged": false
+    },
+    "prompts": {}
+  },
+  "tools": [
+    {
+      "name": "get_profile",
+      "description": "Get professional profile information including skills, experience, and contact details",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    },
+    {
+      "name": "get_projects",
+      "description": "List portfolio projects with descriptions, tech stacks, and links",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    },
+    {
+      "name": "get_availability",
+      "description": "Check availability for freelance or full-time engagements",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    }
+  ],
+  "resources": [
+    {
+      "uri": "https://channguyen.io.vn/.well-known/agent.json",
+      "name": "Agent Profile",
+      "description": "Machine-readable professional profile (JSON-LD)",
+      "mimeType": "application/ld+json"
+    },
+    {
+      "uri": "https://channguyen.io.vn/llms.txt",
+      "name": "LLM Overview",
+      "description": "LLM-friendly site overview",
+      "mimeType": "text/plain"
+    },
+    {
+      "uri": "https://channguyen.io.vn/sitemap.xml",
+      "name": "Sitemap",
+      "description": "Site structure and pages",
+      "mimeType": "application/xml"
+    }
+  ]
+}

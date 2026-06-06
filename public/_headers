@@ -2,4 +2,31 @@
   Link: </sitemap.xml>; rel="sitemap"
   Link: </.well-known/api-catalog>; rel="api-catalog"
   Link: </.well-known/agent.json>; rel="describedby"
+  Link: </llms.txt>; rel="llms-txt"
+  Link: </.well-known/agent-card.json>; rel="agent-card"
+  Link: </.well-known/mcp/server-card.json>; rel="mcp-server"
   X-Robots-Tag: index, follow
+
+/.well-known/api-catalog
+  Content-Type: application/linkset+json; charset=utf-8
+
+/.well-known/agent-card.json
+  Content-Type: application/json; charset=utf-8
+
+/.well-known/mcp/server-card.json
+  Content-Type: application/json; charset=utf-8
+
+/.well-known/agent-skills/index.json
+  Content-Type: application/json; charset=utf-8
+
+/.well-known/agent.json
+  Content-Type: application/ld+json; charset=utf-8
+
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+
+/robots.txt
+  Content-Type: text/plain; charset=utf-8
+
+/sitemap.xml
+  Content-Type: application/xml; charset=utf-8

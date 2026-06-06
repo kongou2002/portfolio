@@ -1,24 +1,31 @@
 {
-  "apiCatalog": {
-    "resources": [
-      {
-        "rel": "sitemap",
-        "href": "/sitemap.xml",
-        "type": "application/xml",
-        "description": "XML sitemap with all pages and sections"
-      },
-      {
-        "rel": "describedby",
-        "href": "/.well-known/agent.json",
-        "type": "application/json",
-        "description": "Machine-readable profile and portfolio data for AI agents"
-      },
-      {
-        "rel": "service-doc",
-        "href": "https://channguyen.io.vn/",
-        "type": "text/html",
-        "description": "Portfolio homepage with structured data (JSON-LD)"
-      }
-    ]
-  }
+  "linkset": [
+    {
+      "anchor": "https://channguyen.io.vn/",
+      "service-desc": [
+        {
+          "href": "https://channguyen.io.vn/.well-known/api-catalog",
+          "type": "application/linkset+json"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://channguyen.io.vn/",
+          "type": "text/html"
+        }
+      ],
+      "describedby": [
+        {
+          "href": "https://channguyen.io.vn/.well-known/agent.json",
+          "type": "application/ld+json"
+        }
+      ],
+      "sitemap": [
+        {
+          "href": "https://channguyen.io.vn/sitemap.xml",
+          "type": "application/xml"
+        }
+      ]
+    }
+  ]
 }
