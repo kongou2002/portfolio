@@ -9,13 +9,15 @@ function SiteFooter() {
           <a
             className="text-[10px] font-['IBM_Plex_Mono'] uppercase tracking-widest text-slate-500 hover:text-cyan-300 transition-all"
             href="https://github.com/kongou2002"
+            rel="me noopener noreferrer"
+            target="_blank"
           >
             GITHUB
           </a>
           <a
             className="text-[10px] font-['IBM_Plex_Mono'] uppercase tracking-widest text-slate-500 hover:text-cyan-300 transition-all"
             href="https://www.linkedin.com/in/nguyen-bui-gia-chan-432a701a0/"
-            rel="noreferrer"
+            rel="me noopener noreferrer"
             target="_blank"
           >
             LINKEDIN

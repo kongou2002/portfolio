@@ -1,4 +1,24 @@
+# https://channguyen.io.vn/robots.txt
 User-agent: *
+Allow: /
+
+# AI Crawlers welcome
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Bytespider
 Allow: /
 
 Sitemap: https://channguyen.io.vn/sitemap.xml

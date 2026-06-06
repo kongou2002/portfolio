@@ -7,8 +7,11 @@ function AboutSection() {
           <div className="absolute -inset-8 border border-primary/5"></div>
           <div className="bg-surface-container aspect-square overflow-hidden border border-white/5 relative">
             <img
-              alt="Nguyen Bui Gia Chan"
+              alt="Nguyen Bui Gia Chan — Frontend and Mobile Engineer portrait"
               className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+              loading="lazy"
+              width="600"
+              height="600"
               src="/assets/me.png"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background to-transparent opacity-60"></div>
@@ -30,9 +33,9 @@ function AboutSection() {
           </p>
           <div className="grid grid-cols-1 gap-6 pt-8">
             <div className="p-6 bg-surface-container-lowest border-l-2 border-secondary">
-              <h4 className="text-secondary text-[10px] font-label tracking-widest uppercase mb-2">
+              <h3 className="text-secondary text-[10px] font-label tracking-widest uppercase mb-2">
                 Primary Objective
-              </h4>
+              </h3>
               <p className="text-sm text-outline-variant">
                 Designing secure, scalable, and frictionless user interfaces for payment
                 systems, decentralized apps, and mobile-first ecosystems.

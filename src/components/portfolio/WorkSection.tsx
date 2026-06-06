@@ -67,15 +67,18 @@ function WorkSection() {
                 : 'px-2 py-1 bg-secondary/10 text-secondary text-[9px] font-label uppercase tracking-widest'
 
             return (
-              <div
+              <article
                 className={`group relative bg-surface-container border border-white/5 p-8 transition-all ${hoverBorderClass}`}
                 key={project.name}
               >
                 <div className="aspect-video mb-8 overflow-hidden border border-white/5">
                   <img
-                    alt={project.name}
+                    alt={`${project.name} — ${project.desc.slice(0, 80)}`}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                    loading="lazy"
                     src={project.img}
+                    width="640"
+                    height="360"
                   />
                 </div>
                 <div className="flex justify-between items-start mb-4">
@@ -92,7 +95,7 @@ function WorkSection() {
                     </span>
                   ))}
                 </div>
-              </div>
+              </article>
             )
           })}
         </div>

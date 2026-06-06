@@ -43,19 +43,19 @@ function ExperienceSection() {
       <div className="max-w-[1440px] mx-auto px-8">
         <div className="flex items-center gap-4 mb-20">
           <h2 className="text-sm font-label uppercase tracking-[0.5em] text-primary">
-            Experience_History
+            Experience History
           </h2>
           <div className="h-[1px] flex-1 bg-outline-variant/30"></div>
         </div>
         <div className="space-y-0">
           {experiences.map((experience) => (
-            <div
+            <article
               className="grid md:grid-cols-12 gap-8 py-12 border-b border-white/5 group hover:bg-white/[0.02] transition-colors"
               key={experience.company}
             >
-              <div className="md:col-span-3 text-outline text-[12px] font-label tracking-widest uppercase">
+              <time className="md:col-span-3 text-outline text-[12px] font-label tracking-widest uppercase">
                 {experience.time}
-              </div>
+              </time>
               <div className="md:col-span-4">
                 <h3 className="text-xl font-headline font-bold text-white">
                   {experience.company}
@@ -66,10 +66,10 @@ function ExperienceSection() {
                   {experience.role}
                 </p>
               </div>
-              <div className="md:col-span-5 text-outline-variant text-sm leading-relaxed">
+              <p className="md:col-span-5 text-outline-variant text-sm leading-relaxed">
                 {experience.desc}
-              </div>
-            </div>
+              </p>
+            </article>
           ))}
         </div>
       </div>
