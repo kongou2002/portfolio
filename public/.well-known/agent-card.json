@@ -59,10 +59,11 @@
     "engagementTypes": ["freelance", "contract", "full-time"],
     "minimumEngagement": "4 hours"
   },
-  "supportedInterfaces": {
-    "https://a2a-protocol.org/latest/specification/#interface-jsonrpc": {
+  "supportedInterfaces": [
+    {
       "url": "https://channguyen.io.vn/",
-      "transport": "https://a2a-protocol.org/latest/specification/#transport-http-jsonrpc"
+      "transport": "https://a2a-protocol.org/latest/specification/#transport-http-jsonrpc",
+      "protocolVersion": "1.0.0"
     }
-  }
+  ]
 }
