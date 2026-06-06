@@ -47,5 +47,11 @@
   ],
   "defaultInputModes": ["text"],
   "defaultOutputModes": ["text"],
-  "supportsAuthenticatedExtendedCard": false
+  "supportsAuthenticatedExtendedCard": false,
+  "supportedInterfaces": {
+    "https://a2a-protocol.org/latest/specification/#interface-jsonrpc": {
+      "url": "https://channguyen.io.vn/",
+      "transport": "https://a2a-protocol.org/latest/specification/#transport-http-jsonrpc"
+    }
+  }
 }
