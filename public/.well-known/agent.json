@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://channguyen.io.vn/#person",
+  "name": "Nguyễn Bùi Gia Chấn",
+  "alternateName": ["Chan Nguyen", "Kongou Dev", "kongou2002"],
+  "url": "https://channguyen.io.vn/",
+  "image": "https://channguyen.io.vn/assets/me.png",
+  "email": "giachan9@gmail.com",
+  "telephone": "+84-933-857-813",
+  "jobTitle": "Frontend & Mobile Engineer",
+  "description": "Frontend & Mobile Engineer with 3+ years building fintech, Web3, and Solana products. TOKEN 2049 Hackathon 1st Place (Polkadot Track).",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Ho Chi Minh City",
+    "addressCountry": "VN"
+  },
+  "knowsAbout": [
+    "React", "React Native", "Next.js", "TypeScript", "Solana Web3.js",
+    "Ethers.js", "NestJS", "GraphQL", "Tailwind CSS", "PostgreSQL",
+    "MongoDB", "Web3", "Blockchain", "DeFi", "NFT", "Fintech"
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Whammy Tech"
+  },
+  "award": "1st Place — TOKEN 2049 Hackathon, Polkadot Track, Singapore",
+  "sameAs": [
+    "https://github.com/kongou2002",
+    "https://www.linkedin.com/in/nguyen-bui-gia-chan-432a701a0/"
+  ],
+  "seeks": "Freelance and full-time Frontend, Mobile, Web3 engineering roles",
+  "portfolio": {
+    "projects": [
+      {
+        "name": "Whampays",
+        "description": "Solana payment app with fiat/crypto transfers, Apple Pay, QR",
+        "tech": ["React Native", "Solana", "TypeScript"],
+        "url": "https://channguyen.io.vn/#work"
+      },
+      {
+        "name": "Moonrush",
+        "description": "Solana decentralized trading with on/off-ramp",
+        "tech": ["React", "Solana", "Web3"],
+        "url": "https://channguyen.io.vn/#work"
+      },
+      {
+        "name": "Llamaoism",
+        "description": "NFT minting on Monad Testnet with WalletConnect",
+        "tech": ["Next.js", "WalletConnect", "NFT"],
+        "url": "https://channguyen.io.vn/#work"
+      },
+      {
+        "name": "EncryptSim",
+        "description": "Secure eSIM app with wallet auth and VPN",
+        "tech": ["Expo", "Solana", "React Native"],
+        "url": "https://channguyen.io.vn/#work"
+      }
+    ]
+  }
+}
