@@ -48,6 +48,17 @@
   "defaultInputModes": ["text"],
   "defaultOutputModes": ["text"],
   "supportsAuthenticatedExtendedCard": false,
+  "pricing": {
+    "hourlyRate": {
+      "amount": 35,
+      "currency": "USD",
+      "unit": "hour"
+    },
+    "description": "Freelance rate: $35/hour for Frontend, Mobile, and Web3 development",
+    "availability": "open",
+    "engagementTypes": ["freelance", "contract", "full-time"],
+    "minimumEngagement": "4 hours"
+  },
   "supportedInterfaces": {
     "https://a2a-protocol.org/latest/specification/#interface-jsonrpc": {
       "url": "https://channguyen.io.vn/",

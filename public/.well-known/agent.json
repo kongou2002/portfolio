@@ -30,6 +30,24 @@
     "https://www.linkedin.com/in/nguyen-bui-gia-chan-432a701a0/"
   ],
   "seeks": "Freelance and full-time Frontend, Mobile, Web3 engineering roles",
+  "offers": {
+    "@type": "Offer",
+    "price": "35",
+    "priceCurrency": "USD",
+    "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": 35,
+      "priceCurrency": "USD",
+      "unitText": "HOUR",
+      "billingDuration": "PT1H"
+    },
+    "description": "Freelance rate: $35/hour for Frontend, Mobile, and Web3 development",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+      "@type": "Person",
+      "@id": "https://channguyen.io.vn/#person"
+    }
+  },
   "portfolio": {
     "projects": [
       {
