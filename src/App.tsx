@@ -1,5 +1,7 @@
 import { useRef } from 'react'
+import { useEffect } from 'react'
 import './App.css'
+import { trackVisit } from './lib/tracking'
 import AboutSection from './components/portfolio/AboutSection'
 import CanvasBackground from './components/portfolio/CanvasBackground'
 import ContactSection from './components/portfolio/ContactSection'
@@ -16,6 +18,10 @@ import { usePortfolioEffects } from './components/portfolio/usePortfolioEffects'
 function App() {
   const canvasRef = useRef<HTMLCanvasElement | null>(null)
   usePortfolioEffects(canvasRef)
+
+  useEffect(() => {
+    trackVisit(window.location.pathname)
+  }, [])
 
   return (
     <div className="font-body selection:bg-primary-container selection:text-on-primary-container">
